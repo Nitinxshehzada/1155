@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"𝙔𝙊𝙐𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝘽𝙔 @DASING_BRO 👽 ✅ "
+    response = f"𝙔𝙊𝙐𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝘽𝙔 @Felixbbyy 💗✅ "
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -244,7 +244,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./bgmi {target} {port} {time} 100"
                 subprocess.run(full_command, shell=True)
-                response = f"𝘽𝙂𝙈𝙄 𝘿𝘿𝙊𝙎 𝘼𝙏𝙏𝘼𝘾𝙆 𝙁𝙄𝙉𝙄𝙎𝙃𝙀𝘿 𝘽𝙔 @DASING_BRO 👽"
+                response = f"𝘽𝙂𝙈𝙄 𝘿𝘿𝙊𝙎 𝘼𝙏𝙏𝘼𝘾𝙆 𝙁𝙄𝙉𝙄𝙎𝙃𝙀𝘿 𝘽𝙔 @Felixbbyy 👽"
         else:
             response = "𝙋𝙇𝙀𝘼𝙎𝙀 𝙋𝙍𝙊𝙑𝙄𝘿𝙀 𝙄𝙋 𝙋𝙊𝙍𝙏 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 ✅ "  # Updated command syntax
     else:
@@ -296,7 +296,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"🙏🏻 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 ⚡𝐃𝐀𝐒𝐈𝐍𝐆 💀 𝐏𝐎𝐖𝐄𝐑⚡ 𝙃𝙐𝘽 𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝙊𝙉 𝙈𝙀𝙉𝙐.  @DASING_BRO 👽"
+    response = f"🙏🏻 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 ⚡𝐅𝐄𝐋𝐈𝐗 💀 𝐏𝐎𝐖𝐄𝐑⚡ 𝙃𝙐𝘽 𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝙊𝙉 𝙈𝙀𝙉𝙐. @Felixbbyy 🪱"
     bot.reply_to(message, response)
 
 
@@ -308,7 +308,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-By @DASING_BRO 👽'''
+By @Felixbbyy 💥🪱'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -325,7 +325,7 @@ Pr-ice List:
 Day-->120 Rs
 Week-->600 Rs
 Month-->1200 Rs
-By  @DASING_BRO 👽
+By  @Felixbbyy 💗🪱
 '''
     bot.reply_to(message, response)
 
@@ -340,7 +340,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By  @DASING_BRO 👽
+By  @Felixbby 💗🪱
 '''
     bot.reply_to(message, response)
 
